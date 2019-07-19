@@ -1,0 +1,5 @@
+select distinct trade_no, transactionref, tradedate, sell_code, seller_inv_Id SELLER_SID, buy_code, 
+buyer_inv_id BUYER_SID, sec_code, quantity, price, quantity*price MARKET_VALUE, TO_CHAR(CURRENT_TIMESTAMP,'YYYYMMDDHH24MISS')
+from reportintra.trade_instructions@dw1_prod
+where tradedate BETWEEN '29 NOV 2018' AND '30 NOV 2018'
+and (sell_code = 'KZ' or buy_code = 'KZ')

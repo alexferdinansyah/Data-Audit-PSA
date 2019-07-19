@@ -1,0 +1,26 @@
+select * from 
+(select  distinct d.system_account, 
+        (case when length(d.system_account) = 10 then map.id_acct else d.system_account end) sre,
+        d.code_sta, 
+        d.initial_flag
+from    (select distinct system_account from REPORTINTRA.MASTER_DATA_INV_SNAP@dw1_prod
+        where system_type = 1
+        and code_sta = 0
+        and substr(system_account,1,5) = 'CC001'
+        and snap_dat = '20 MAY 2019') m,  --untuk melihat seluruh data di PE
+        reportintra.vw_data_inv_address@dw1_prod  d, --untuk mengambil creator/crosslinknya
+        (select a.*, INVESTORCODE
+        from warbdn02_dac a, 
+        (SELECT INV.CODE INVESTORCODE, AC.ACCOUNTIDENTIFIERVALUE ACCOUNTNUMBER
+        FROM ACCOUNTCOMPOSITE@tobamr AC
+        LEFT JOIN INVESTOR@tobamr INV ON AC.IDENT_HOLDER = INV.IDENT_STAKEHOLDER
+        WHERE AC.IDENT_MASTER IS NULL
+        AND AC.IDENT_ACTIVATIONTYPE != 5) b
+        where b.ACCOUNTNUMBER = a.id_acct) map --untuk melihat mapping investorcode dengan system_account
+        
+where   m.system_account = d.system_account
+        and d.code_sta = '0'
+        and d.system_account = INVESTORCODE (+)
+order by 1) a,
+(select * from waq1_dac) b
+where b.id_acct = a.system_account

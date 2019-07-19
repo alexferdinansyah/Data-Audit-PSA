@@ -1,0 +1,23 @@
+ select distinct fs.id_acct, A.INVs_sID
+  FROM sdi_invs_static@dw1_prod a,
+       reportintra.account_snap@dw1_prod ac,
+       reportintra.fundsep_get_sid_snap@dw1_prod fs,
+       SDI_ONLINEKSEI.TR_USERS tu, 
+       SDI_ONLINEKSEI.tr_codes cds, 
+       SDI_ONLINEKSEI.codes cd
+WHERE     a.invs_sid = fs.inv_id
+       AND a.id_acct = ac.id_acct(+)
+       AND cd.col_nm(+) = 'CODE_ACCT_STA'
+       AND ac.code_acct_sta = cd.code_val(+)
+       AND TU.DAT_CREATE >= TRUNC (TO_DATE ('20090101', 'yyyymmdd')) --tanggal awal tidak diubah
+       AND TU.DAT_CREATE <= TRUNC (TO_DATE ('CURRENTDATE', 'yyyymmdd')) ---masukkan tanggal yang diminta
+--       AND a.inv_id = 'KZ001292700191'
+       AND A.ID_ACCT = fs.ID_ACCT
+       and ac.snap_dat = 'SNAPDATE'
+       and fs.snap_dat  = 'SNAPDATE'
+--       AND SUBSTR (fs.id_acct, 1, 5) = 'KZ001'
+       AND tu.inv_id = a.invs_sid
+       AND tu.user_sta IN ('A', 'F')
+       AND tu.GROUP_ID = '02'
+       AND cds.col_nm = 'LA'
+       AND cds.CODE_VAL = a.loc_asing --14,324

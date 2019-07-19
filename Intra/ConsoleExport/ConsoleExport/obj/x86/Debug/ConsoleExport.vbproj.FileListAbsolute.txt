@@ -1,0 +1,45 @@
+D:\script\DAC\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.exe
+D:\script\DAC\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.pdb
+D:\script\DAC\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.xml
+D:\script\DAC\ConsoleExport\ConsoleExport\bin\Debug\EPPlus.dll
+D:\script\DAC\ConsoleExport\ConsoleExport\bin\Debug\Oracle.DataAccess.dll
+D:\script\DAC\ConsoleExport\ConsoleExport\bin\Debug\EPPlus.xml
+D:\script\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.vbprojResolveAssemblyReference.cache
+D:\script\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.Resources.resources
+D:\script\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.vbproj.GenerateResource.Cache
+D:\script\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.exe
+D:\script\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.xml
+D:\script\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.pdb
+D:\script\DAC\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.exe
+D:\script\DAC\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.pdb
+D:\script\DAC\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.xml
+D:\script\DAC\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.Resources.resources
+D:\script\DAC\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.vbproj.GenerateResource.Cache
+D:\script\DAC\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.exe
+D:\script\DAC\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.xml
+D:\script\DAC\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.pdb
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.exe
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.xml
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.pdb
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.exe
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.pdb
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.xml
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.vbprojResolveAssemblyReference.cache
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.Resources.resources
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.vbproj.GenerateResource.Cache
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.exe
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.pdb
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.xml
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.Resources.resources
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.vbproj.GenerateResource.Cache
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.exe
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.xml
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.pdb
+D:\intra\DAC\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.exe
+D:\intra\DAC\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.pdb
+D:\intra\DAC\ConsoleExport\ConsoleExport\bin\Debug\ConsoleExport.xml
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.Resources.resources
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.vbproj.GenerateResource.Cache
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.exe
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.xml
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Debug\ConsoleExport.pdb

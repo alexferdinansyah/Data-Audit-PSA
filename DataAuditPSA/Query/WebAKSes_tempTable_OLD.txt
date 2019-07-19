@@ -1,0 +1,31 @@
+select map.id_acct, A.INV_ID
+FROM tr_investors@kseistpi.world a,
+tr_investors_email@kseistpi.world e,
+account@kseistpi.world ac,
+tt_inv_map@kseistpi.world map,
+tr_users@kseistpi.world tu,
+tr_codes@kseistpi.world cds,
+codes@kseistpi.world cd
+WHERE a.inv_id = map.inv_id
+AND a.inv_id = e.inv_id(+)
+AND a.id_acct = ac.id_acct(+)
+AND cd.col_nm(+) = 'CODE_ACCT_STA'
+AND ac.code_acct_sta = cd.code_val(+)
+AND TU.DAT_CREATE >= TRUNC (TO_DATE ('20090101', 'yyyymmdd')) --tanggal awal tidak diubah
+AND TU.DAT_CREATE <= TRUNC (TO_DATE ('CURRENTDATE', 'yyyymmdd')) --masukan tanggal dimintA
+--AND a.inv_id = 'GR001292700191'
+AND A.ID_ACCT = MAP.ID_ACCT
+AND SUBSTR (map.id_acct, 1, 5) = 'PANIN'
+AND map.map_sta = 'A'
+AND inv_sta IN ('A', 'B')
+AND tu.inv_id = a.inv_id
+AND tu.user_sta IN ('A', 'F')
+AND tu.GROUP_ID ='02'
+AND cds.col_nm = 'LA'
+AND cds.CODE_VAL = a.loc_asing 
+
+--CROSSLINK / NOT CROSSLINK
+--select system_account, code_sta, initial_flag from reportintra.vw_data_inv_address
+--where system_account in (select distinct(id_acct) from WEBAKSES_PANIN_20170224)
+--and code_sta = '0'
+--ORDER BY 1 

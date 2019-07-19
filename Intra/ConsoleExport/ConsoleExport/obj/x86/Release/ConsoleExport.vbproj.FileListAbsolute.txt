@@ -1,0 +1,25 @@
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.exe
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.xml
+X:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.pdb
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Release\ConsoleExport.exe
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Release\ConsoleExport.pdb
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Release\ConsoleExport.xml
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Release\EPPlus.dll
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\bin\Release\Oracle.DataAccess.dll
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.vbprojResolveAssemblyReference.cache
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.Resources.resources
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.vbproj.GenerateResource.Cache
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.exe
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.xml
+D:\script\Penelitian\TradingBursaSummary\New folder\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.pdb
+D:\intra\DAC\ConsoleExport\ConsoleExport\bin\Release\ConsoleExport.exe
+D:\intra\DAC\ConsoleExport\ConsoleExport\bin\Release\ConsoleExport.pdb
+D:\intra\DAC\ConsoleExport\ConsoleExport\bin\Release\ConsoleExport.xml
+D:\intra\DAC\ConsoleExport\ConsoleExport\bin\Release\EPPlus.dll
+D:\intra\DAC\ConsoleExport\ConsoleExport\bin\Release\Oracle.DataAccess.dll
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.Resources.resources
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.vbproj.GenerateResource.Cache
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.exe
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.xml
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.pdb
+D:\intra\DAC\ConsoleExport\ConsoleExport\obj\x86\Release\ConsoleExport.vbprojResolveAssemblyReference.cache
